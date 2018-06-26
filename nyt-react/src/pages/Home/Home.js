@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Jumbotron from '../../components/Jumbotron';
+import Search from '../../components/Search';
 
 
 class Home extends Component {
@@ -13,7 +14,14 @@ class Home extends Component {
     // JSX here
     render () {
         return (
-            <Jumbotron/>
+            <wrapper>
+            <div>
+                <Jumbotron/>,
+            </div>
+            <div className="container">
+                <Search/>
+            </div>
+            </wrapper>
         )
     }
 }
