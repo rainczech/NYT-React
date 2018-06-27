@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const articlesController = require("../../nyt-react/controllers");
+const articlesController = require("../../controllers/articlesController");
 
 // match it up with api/articles
 router.route("/")
