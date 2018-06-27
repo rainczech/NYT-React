@@ -15,7 +15,7 @@ if (process.env.Node_ENV === "production"){
 
 app.use(routes);
 
-// MongoDBb - insert db where : is
+// MongoDBb
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/nytarticles");
 
 // API Server

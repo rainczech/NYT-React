@@ -1,7 +1,7 @@
 import React, {Component} from "react";
-import "./Saved.css";
+import "./SavedArt.css";
 
-class Saved extends Component {
+class SavedArt extends Component {
     // state here
 
 
@@ -26,4 +26,4 @@ class Saved extends Component {
 }
 
 
-export default Saved;
+export default SavedArt;
