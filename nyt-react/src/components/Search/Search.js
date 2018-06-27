@@ -24,6 +24,10 @@ class Search extends Component {
                     <input type="Topic" class="form-control" id="Topic" placeholder=""/>
                  </div>
                  <div class="form-group">
+                    <label for="">Number of Articles</label>
+                    <input type="Number" class="form-control" id="Number" placeholder=""/>
+                 </div>
+                 <div class="form-group">
                     <label for="">Start Year</label>
                     <input type="StartYear" class="form-control" id="StartYear" placeholder=""/>
                  </div>

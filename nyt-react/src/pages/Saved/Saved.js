@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Jumbotron from '../../components/Jumbotron';
-import SavedArt from "../SavedArt";
+import SavedArt from "../../components/SavedArt";
+import Footer from '../../components/Footer';
 
 
 class Saved extends Component {
@@ -21,6 +22,7 @@ class Saved extends Component {
             <div className="container">
               <SavedArt/>
             </div>
+            <Footer/>
             </wrapper>
         )
     }
